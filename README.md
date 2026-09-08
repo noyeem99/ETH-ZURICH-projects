@@ -1,14 +1,21 @@
-Secure VFL: Cryptographic Aggregation & Differential Privacy
+**Secure VFL: Cryptographic Aggregation & Differential Privacy**
+
+
+
 
 Introduction
 This repository holds the implementation of a Secure Vertical Federated Learning (VFL) framework, built following the direction of Professor Kenny Paterson from ETH Zurich.The main goal of this project is to connect Applied Cryptography with Differential Privacy (DP). It shows how to connect data from multiple sources using cryptographic techniques and keeping it safe from privacy leaks using DP-SGD noise.
+
+
 
 
  **1. Secure VFL Embedding Space Obfuscation**
 
  File Name: secure_vfl_embedding_space_visualization.py
 
- Objective: Plot the embedding space to see how well the target boundaries are protected under Multi-Silo Distributed DP.
+ Objective: 
+ 
+ Plot the embedding space to see how well the target boundaries are protected under Multi-Silo Distributed DP.
 
  Results: 
 
@@ -18,11 +25,15 @@ This repository holds the implementation of a Secure Vertical Federated Learning
 
   
 
+  
+
   **2. HE-DP Co-Design Framework Analysis**
 
  File Name: he_dp_codesign_framework.py
 
- Objective: Study the relationship between the Noise Multiplier (using Opacus Engine) and the Empirical Noise Variance (Utility Degradation Score).
+ Objective:
+ 
+ Study the relationship between the Noise Multiplier (using Opacus Engine) and the Empirical Noise Variance (Utility Degradation Score).
 
   Results: 
 
@@ -30,13 +41,17 @@ This repository holds the implementation of a Secure Vertical Federated Learning
 
  Found that when the noise multiplier reaches 3.0, the noise variance peaks at around 9.5, showing exactly how much utility decreases as we push for stronger privacy.
 
+ 
+
 
 
  **3. GenAI Defense Auditing against Membership Inference Attacks**
 
  File Name: genai_defense_auditing.py
 
- Objective: Test how well our Hybrid DP-Watermark defense drops the Attacker's Success Rate (MIA AUC Score) as the privacy noise increases.
+ Objective: 
+ 
+ Test how well our Hybrid DP-Watermark defense drops the Attacker's Success Rate (MIA AUC Score) as the privacy noise increases.
 
  Results: 
 
