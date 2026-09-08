@@ -15,3 +15,15 @@ This repository holds the implementation of a Secure Vertical Federated Learning
 
   Kept a clear separation between the red classes (Target: 1.0) and blue classes (Target: 0.0), proving the model works well even with differential privacy noise.
 
+  2. HE-DP Co-Design Framework Analysis
+
+ File Name: he_dp_codesign_framework.py
+
+ Objective: Study the relationship between the Noise Multiplier (using Opacus Engine) and the Empirical Noise Variance (Utility Degradation Score).
+
+  Results: 
+
+  Successfully tracked how noise variance increases along with the noise multiplier from 0.5 to 3.0.
+
+ Found that when the noise multiplier reaches 3.0, the noise variance peaks at around 9.5, showing exactly how much utility decreases as we push for stronger privacy.
+
