@@ -11,7 +11,7 @@ This repository holds the implementation of a Secure Vertical Federated Learning
 
  **1. Secure VFL Embedding Space Obfuscation**
 
- File Name: secure_vfl_embedding_space_visualization.py
+ File Name: secure_vfl_embedding_space_visualization.ipynb
 
  Objective: 
  
@@ -29,7 +29,7 @@ This repository holds the implementation of a Secure Vertical Federated Learning
 
   **2. HE-DP Co-Design Framework Analysis**
 
- File Name: he_dp_codesign_framework.py
+ File Name: he_dp_codesign_framework.ipynb
 
  Objective:
  
@@ -47,7 +47,7 @@ This repository holds the implementation of a Secure Vertical Federated Learning
 
  **3. GenAI Defense Auditing against Membership Inference Attacks**
 
- File Name: genai_defense_auditing.py
+ File Name: genai_defense_auditing.ipynb
 
  Objective: 
  
