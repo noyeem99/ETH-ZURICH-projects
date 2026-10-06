@@ -4,7 +4,7 @@
 
 
 Introduction
-This repository holds the implementation of a Secure Vertical Federated Learning (VFL) framework, built following the direction of Professor Kenny Paterson from ETH Zurich.The main goal of this project is to connect Applied Cryptography with Differential Privacy (DP). It shows how to connect data from multiple sources using cryptographic techniques and keeping it safe from privacy leaks using DP-SGD noise.
+This repository holds the implementation of a Secure Vertical Federated Learning (VFL) framework.The main goal of this project is to connect Applied Cryptography with Differential Privacy (DP). It shows how to connect data from multiple sources using cryptographic techniques and keeping it safe from privacy leaks using DP-SGD noise.
 
 
 
